@@ -1,0 +1,32 @@
+html,body,div,ul,li,dl,dt,dd,ol,h1,h2,h3,h4,h5,h6,th,td,img,b,p,input{
+	margin:0; padding:0; 
+	}
+img{border:0;}
+li{
+ list-style:none; 
+  }
+a{
+text-decoration:none; 
+}
+.left{
+	float:left;
+	display:inline;
+}
+.right{
+	float:right;
+	display:inline;
+}
+.clear {
+    *zoom: 1;
+}
+.clear:after{
+ 	clear:both; 
+ 	content:""; 
+ 	display:block;
+}
+::selection{background:#c8dedc;}
+html{overflow-x:hidden;}
+body{
+	overflow-y:hidden;
+	background:#F9F9F9;
+}

@@ -1,0 +1,371 @@
+.banner{
+	width:100%;
+	height:360px;
+}
+/*轮播开始*/
+.focus{
+	width:1080px;
+	height:360px; 
+	position:relative;
+}
+.focus .lb{
+	height:100%;
+}
+.focus .lb li{
+	width:100%; 
+	overflow:hidden; 
+	position:absolute;
+	opacity:0;
+}
+.focus .lb li:first-child{
+	z-index:5;
+	opacity:1;
+}
+.btn{
+	width:48px;
+	height:48px;
+	background:rgba(0,0,0,0.65);
+	border-radius:2px; 
+	color:#fff; 
+	text-align:center; 
+	font:24px/48px 'SimSun'; 
+	position:absolute; 
+	top:50%; 
+	margin-top:-20px;
+	cursor:pointer;
+	 -webkit-user-select:none;
+	 z-index:5;
+	}
+.LBtn{
+	left:210px;
+}
+.RBtn{
+	right:10px;
+}
+.dot{
+	position:absolute;
+	width:140px; 
+	height:10px;
+	left:55%;
+	bottom:20px;
+	margin-left:-35px;
+	z-index:5;
+}
+.dot li{
+	width:10px; 
+	height:10px;
+	background:rgba(255,255,255,0);
+	float:left; 
+	margin:0 6px;
+	border-radius:50%;
+	border: 2px solid #523669;
+}
+.dot li:first-child{
+	background:#F7B200;
+}
+/*轮播结束*/
+/*轮播左侧的菜单开始*/
+.navSide{
+	width:200px;
+	-height:;
+	position:absolute;
+    z-index:5;
+    top:0px;
+    left:0;
+    padding:20px 0;
+    background:rgba(95,93,100,0.8);
+}
+.navSide .navTitle{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    color:;
+    font:14px/40px "Microsoft YaHei";
+    color:#fff;
+}
+.navSide .navTitle a{
+	color:#fff;
+}
+.navSide>li{
+	cursor:pointer;
+}
+.navSide .navTitle a:hover{
+	color:orange;
+}
+.navSide>li:hover{
+	background:rgba(190,189,191,0.4);
+}
+.navSide li .navTitle span{
+    color:#fff;
+    padding:0 8px;
+}
+.navSub{
+    width:668px;
+    min-height:344px;
+    background:#fff;
+    position:absolute;
+    top:0;
+    left:200px;
+    padding:16px 16px 0 16px;
+    display:none; 
+    z-index:6;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,.08);
+ }
+.navSub li{
+    float:left;
+    height:48px;
+    line-height:48px;
+}
+.navSub li p:first-child{
+	width:88px;
+	height:48px;
+	margin-right: 18px;
+}
+.navSub li p:first-child a{
+	color:#333;
+	width:80px;
+	font:14px/48px "Microsoft YaHei";
+}
+.navSub li p:first-child span{
+	float:right;
+}
+.nbsp{
+	width:26px;
+	height:48px;
+	float:left;
+}
+.nbspT{
+	width:16px;
+	height:48px;
+	-background:#000;
+	float:left;
+}
+.navSubCon{
+    width:552px;
+    border-bottom:1px solid #f2f2f2;
+}
+.navSubCon a{
+    font:12px/46px "Microsoft YaHei";
+    margin-right:20px;
+    color:#8f8083;
+}
+.navSub li:last-child .navSubCon{
+	border-bottom:0;
+}
+.navSide li:hover .navSub{
+	display:block;
+}
+.navSubCon a:hover{
+	color:#333;
+}
+/*轮播左侧的菜单结束*/
+.article a {
+    display: block;
+    line-height: 56px;
+    font-size: 16px;
+    color: #333;
+    background: #fff;
+}
+.article img {
+    width: 100px;
+    margin: 0 48px;
+    vertical-align: middle;
+}
+.article span {
+    display: inline-block;
+    height: 21px;
+    padding-left: 20px;
+    border-left: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 21px;
+    vertical-align: middle;
+}
+.article p{
+	margin-right: 20px;
+}
+.category > div {
+    margin-top: 40px;
+}
+.category-recommend-1 ul{
+	height:220px;
+}
+.category-recommend-1 ul li{
+	width:350px;
+	height:220px;
+	background:#000;
+}
+.category-recommend-1 ul li:first-child{
+	margin-right: 15px;
+	background:url('../images/category/group1.jpg') no-repeat;
+	background-size:100% 100%;
+}
+.category-recommend-1 ul li:first-child+li{
+	background:url('../images/category/group2.jpg') no-repeat;
+	background-size:100% 100%;
+}
+.category-recommend-1 ul li:first-child+li+li{
+	background:url('../images/category/group3.jpg') no-repeat;
+	background-size:100% 100%;
+}
+.category-recommend-1 a {
+    display: block;
+    width: 350px;
+    height: 220px;
+    transition: box-shadow 0.5s ease-in-out 0s;
+}
+.category-recommend-2 p:first-child,.category-recommend-3 p:first-child{
+    color: #333;
+    font: 24px/24px "Mircrosoft YaHei";
+    margin-bottom: 20px;
+}
+/*手风琴效果*/
+.accordion ul li{
+	list-style: none;
+	float: left;
+}
+.accordion{
+	width: 1080px;
+	overflow: hidden;
+	height: 280px;
+	margin:0 auto;
+}
+.accordion ul li{
+	background-repeat: no-repeat;
+	float: left;
+	width: 80px;
+	height: 280px;
+	cursor: pointer;
+	-background:rgba(0,0,0,0.4);
+	border-left:12px solid #fff;
+}
+.accordion ul li:first-child{
+	border:none;
+}
+.accordion ul li.active{
+	width: 620px;
+}
+.accordion ul .item1{
+	background-image: url(../images/piano/pic1.jpg);
+}
+.accordion ul .item2{
+	background-image: url(../images/piano/pic2.jpg);
+}
+.accordion ul .item3{
+	background-image: url(../images/piano/pic3.jpg);
+}
+.accordion ul .item4{
+	background-image: url(../images/piano/pic4.jpg);
+}
+.accordion ul .item5{
+	background-image: url(../images/piano/pic5.jpg);
+}
+.accordion ul .item6{
+	background-image: url(../images/piano/pic6.jpg);
+}
+.accordion ul li a{
+	display: block;
+	width: 80px;
+	height: 280px;
+	-cursor: default;
+}
+/*手风琴效果*/
+.category-recommend-3 p a{
+	font: 16px/24px "Mircrosoft YaHei";
+	color:#333;
+}
+.category-recommend-3 ul{
+	height:284px;
+}
+.category-recommend-3 ul li{
+	width:204px;
+	height:284px;
+	background:#fff;
+	overflow:hidden;
+	position:relative;
+	margin-bottom: 15px;
+}
+.category-recommend-3 ul li:first-child{
+	width:423px;
+	height:284px;
+	background:#fff;
+	margin-right: 15px;
+}
+.category-recommend-3 ul li:first-child a{
+	width:423px;
+	height:284px;
+}
+.category-recommend-3 ul li:first-child+li{
+	margin-right: 15px;
+}
+.category-recommend-3 ul li:nth-child(5),.category-recommend-3 ul li:nth-child(6),.category-recommend-3 ul li:nth-child(7){
+	margin-right: 15px;
+}
+.listNode{
+	width:423px;
+	height:284px;
+	overflow:hidden;
+}
+.listNode span{
+	width:423px;
+	height:204px;
+	overflow:hidden;
+	
+}
+.listNode span>img{
+	height:204px;
+	-webkit-transition:1s;
+	-moz-transition:1s;
+	-o-transition:1s;
+	transition:1s;
+}
+.listNode .listNTitle{
+	width:100%;
+	font: 20px/20px "Mircrosoft YaHei";
+	color:#333;
+	text-align:center;
+	margin-top:30px;
+}
+.category-recommend-3 ul li:hover{
+	box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
+}
+.category-recommend-3 ul li:hover span>img{
+	-webkit-transform:scale(1.05,1.05);
+	-moz-transform:scale(1.05,1.05);
+	-o-transform:scale(1.05,1.05);
+	transform:scale(1.05,1.05);
+}
+.listNode2 {
+	width:204px;
+	height:284px;
+	
+}
+.category-recommend-3 ul li a{
+	width:204px;
+	height:284px;
+}
+.listNode2 span{
+	width:204px;
+	height:204px;
+	overflow:hidden;
+}
+.listNode2 span>img{
+	height:204px;
+	-webkit-transition:0.7s;
+	-moz-transition:0.7s;
+	-o-transition:0.7s;
+	transition:0.7s;
+}
+.listNode2 .listN2Title{
+	width:100%;
+	font: 16px/16px "Mircrosoft YaHei";
+	color:#333;
+	text-align:center;
+	margin-top:24px;
+}
+.listNode2 p:last-child{
+	width:100%;
+	font: 16px/16px "Mircrosoft YaHei";
+	text-align:center;
+	margin-top: 5px;
+    color: #ff3333;
+}
