@@ -1,0 +1,61 @@
+.contact_banner {
+    width: 100%;
+    background: #e9e6eb url(http://static1.biyao.com/pc/www/img/join/contact_bg.jpg?v=biyao_ee2e033) left top repeat-x;
+    padding-bottom: 30px;
+}
+.t_c {
+    text-align: center;
+}
+.contact_us {
+    padding-top: 50px;
+}
+.f18 {
+    font-size: 18px !important;
+  	color: #666; 
+}
+.col_523 {
+    color: #523669;
+}
+.bg_f9f {
+    background: #f9f8f4;
+}
+.bg_f0f {
+    background: #f0f2f1;
+}
+
+.pd_b40 {
+    padding-bottom: 40px!important;
+}
+.t_c {
+    text-align: center;
+}
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wrap, .wrapH {
+    width: 1200px;
+}
+.pd_t20 {
+    padding-top: 20px;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+.f14 {
+    font-size: 14px;
+}
+.col_523 {
+    color: #523669;
+}
+.mg_b30 {
+    margin-bottom: 30px;
+}
+.mg_t20 {
+    margin-top: 20px;
+}
+.rightBar{
+	left: 54%;
+}

@@ -1,0 +1,337 @@
+body,html{
+	background: #f9f9f9;
+}
+/*小头部 start*/
+.c-start{
+	width: 1080px;
+	height: 16px;
+	/*background: pink;*/
+	margin: 20px auto;
+	font-size: 11px;
+	line-height: 16px;
+}
+.c-start>a{
+	color: #333333;
+}
+.c-start>span{
+	color: #808080;
+}
+/*小头部 end*/
+
+/*分类栏c-cateBread start */
+.c-cateBread{
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+	background: white;
+	margin: 0 auto;
+}
+.c-cateBread>span{
+	display: inline-block;
+    font-size: 16px;
+    color: #808080;
+    margin-left: 20px;
+}
+.c-cateBread>ul{
+    display: inline-block;
+    margin-left: 20px;
+}
+.c-cateBread>ul>li{
+    display: inline-block;
+    margin-right: 30px;
+    color: #808080;
+    cursor: pointer;
+}
+.c-cateBread>ul>li:hover{
+    color: #333333;
+}
+/*分类栏c-cateBread end*/
+
+/*标题category-title start*/
+.c-category-title{
+	width: 1080px;
+	height: 50px;
+	line-height: 50px;
+	margin: 40px auto 20px auto;
+	text-align: center;
+	/*background: pink;*/
+	font-size: 23px;
+	color:#333333;
+}
+/*标题category-title end*/
+
+/* 小的一样的c-category-container start */
+.c-category-container{
+	width: 1080px;
+	margin: 0 auto;
+	/*background: pink;*/
+}
+.c-category-container>li{
+	margin-bottom: 20px;
+}
+.fig-left,.fig-left>a{
+	cursor: pointer;
+	text-align: center;
+	width: 255px;
+	height: 335px;
+	/*display: inline-block;*/
+	transition: 0.7s;
+}
+.fig-left{
+	display: inline-block;
+	background: white;
+	margin-right: 16px;
+}
+.fig-left:hover,.fig-right:hover{
+	box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
+}
+.c-category-container>li:hover{
+	box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
+}
+.c-category-container>li:hover .c-glassesFig>img{
+	transform: scale(1.05);
+}
+.c-glassesFig{
+	transition: 0.7s;
+	width: 255px;
+	height: 255px;
+	overflow: hidden;
+}
+.c-glassesFig>img{
+	width: 255px;
+	height: 255px;
+	transition: 0.7s;
+}
+.c-gigPone{
+	display: block;
+	font-size: 15px;
+	padding-top: 25px;
+	color: #333333;
+}
+.c-gigPtwo{
+	display: block;
+	color: #ff3333;
+	padding-top: 12px;
+}
+.fig-right{
+	margin:none;
+	float: right;
+}
+.fig-right,.fig-right>a{
+	cursor: pointer;
+	text-align: center;
+	width: 255px;
+	height: 335px;
+	transition: 0.7s;
+}
+.fig-right{
+	display: inline-block;
+	background: white;
+}
+/*小的一样的c-category-container end */
+
+/*点击分享 start*/
+.rightBar-share {
+    position: relative;
+    background: url(../images/store/rightBar-share.png) 0 center no-repeat;
+}
+.shareCon {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:99999999;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+}
+.shareCon > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 450px;
+    margin-left: -245px;
+    margin-top: -115px;
+    padding: 0 20px 25px;
+     background-color: #fff; 
+}
+.share-main>p{
+    position: relative;
+    height: 40px;
+    border-bottom: 1px dotted #ccc;
+    line-height: 40px;
+    font-size: 18px;
+    background-color: #fff;
+}
+.share-main>p>b{
+	position: absolute;
+    top: 14px;
+    right: 5px;
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: url("../images/store/cls_btn.png") no-repeat;
+    cursor: pointer;
+}
+.shact-ul{
+	padding-top: 15px;
+    overflow: hidden;
+}
+.shact-ul>li:nth-child(1){
+	float: left;
+    padding-top: 8px;
+    padding-right: 25px;
+    border-right: 1px solid #e8e8e8;
+    vertical-align: middle
+}
+.shact-ul>li:nth-child(2){
+	float: left;
+}
+.shact-ul>li:first-child>img{
+	width: 120px;
+    height: 120px;
+}
+.shact-ul>li:nth-child(1)>p{
+	    font-size: 12px;
+	    color: #666666;
+
+}
+ .hail-fellow{
+	float: left;
+    padding-top: 40px;
+    vertical-align: middle;
+ 	}  
+.hail-fellow>li{
+	float: left;
+    margin-left: 15px;
+    vertical-align: middle;
+} 
+ .hail-fellow>li>a{
+ 	display: block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    background: url("../images/store/share_new.png") top left no-repeat;
+ }
+  .hail-fellow>li:nth-child(1)>a{
+  	background-position: -10px -190px;
+  }
+   .hail-fellow>li:nth-child(2)>a{
+  	background-position: -10px -130px;
+  }
+   .hail-fellow>li:nth-child(3)>a{
+  	background-position: -10px -70px;
+  }
+   .hail-fellow>li:nth-child(4)>a{
+  	background-position: -10px -10px;
+  }
+
+.hail-fellow>li>span{
+	display: block;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #666;
+}
+      
+/*点击分享 end*/
+
+
+/*店面分页 店面栏 start*/
+.supplier-info{
+	width: 1080px;
+    margin: 0 auto 40px;
+    overflow: hidden;
+    background: #fff;
+}
+.info-normal{
+	float: left;
+}
+.column{
+	float: left;
+    width: 100px;
+    height: 120px;
+    margin: 0 20px;
+    line-height: 120px;
+}
+.column>img{
+	width:100%;
+}
+.columntwo{
+	    float: left;
+    margin: 25px 0;
+}
+.columntwo>h1{
+	margin-bottom: 28px;
+    font-size: 24px;
+    font-weight: normal;
+}
+.columntwo>p{
+    display: inline-block;
+    float: left;
+    width: 84px;
+    height: 25px;
+    padding-left: 30px;
+    line-height: 23px;
+    background: url("../images/store/column2.png") left center no-repeat;
+    font-size: 16px;
+    color: #523669;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+.info-eval {
+	font-size: 12px;
+    float: right;
+    margin: 40px 0;
+    padding-right: 20px;
+}
+.info-eval>li{
+	position: relative;
+    height: 25px;
+    width: 236px;
+}    
+.info-eval b{
+	display: inline-block;
+    font-weight: normal;
+    color: #666;
+    vertical-align: middle;
+}
+
+.info-eval p{
+	position: relative;
+    display: inline-block;
+    margin-left: 3px;
+    width: 103px;
+    height: 15px;
+    background: url("../images/store/sprit_biyao.png") -339px -250px;
+    vertical-align: middle;
+}
+.info-eval span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    display: inline-block;
+    height: 15px;
+    background: url("../images/store/sprit_biyao.png")-339px -268px;
+}
+.info-eval i {
+    position: absolute;
+    right: 5px;
+    display: inline-block;
+    color: #f49f26;
+    vertical-align: middle;
+    font-style: normal;
+}
+/*店面分页 店面栏 end*/
+
+
+
+
+
+
+
+
+
+
+
+

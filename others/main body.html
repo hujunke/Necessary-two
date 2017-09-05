@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>新品首发--黄健聪</title>
+	<link rel="stylesheet" href="../css/HFpublic.css">
+	<link rel="stylesheet" href="../css/reset2.css">
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/lookAll.css">
+	<link rel="stylesheet" type="text/css" href="../css/main body.css">
+
+
+</head>
+<body>
+<!-- 头部 start -->
+<div class="kTop clear">
+	<div class="KwrapB clear">
+		<ul class="header-nav left clear">
+			<li><a href="" target="_blank">首页</a><b></b></li>
+			<li><a href="" target="_blank">平台政策</a><b></b></li>
+			<li><a href="" id="supCenter">商家入驻</a></li>
+		</ul>
+		 <ul class="header-user right">
+			<li class="user-out">
+				<a href="" id="loginBtn" class="user-login">登录</a>
+				<a href="" id="registBtn">注册</a>
+				<b></b>
+			</li>
+			<li class="user-center" style="display:none">
+				<a href="" id="userName"><span></span></a>
+				<div>
+					<i></i>
+					<ul>
+						<li><a href="" target="_blank">我的订单</a></li>
+						<li><a href="" target="_blank">个人中心</a></li>
+						<li><a href="">退出登录</a></li>
+					</ul>
+				</div>
+				<b></b>
+			</li>
+			<li class="user-app">
+				<a href="">下载必要APP</a>
+				<b></b>
+				<div class="block">
+					<i></i>
+					<dl>
+						<dt></dt>
+						<dd>
+							<span>我要的 才是必要的</span>
+							<p></p>	
+						</dd>
+					</dl>
+				</div> 
+			</li>
+			<li class="user-msg">
+				<a href="" class="msg-center">
+					<span class="msg-title">消息中心</span>
+					<i id="unread">0</i>
+				</a>
+			</li>
+			<li class="user-shopCar">
+				<a href="" target="_blank">购物车<i id="shopCar">0</i></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="nav clear" id="nav">
+	<div class='KwrapB clear'>
+		<a href="" class="nav-logo left" id="navLogo"></a>
+		<div class="nav-search right clear" id="navSearch">
+			<p>
+				<input type="text" name="" value="" placeholder="请输入要搜索的商品">
+				<span></span>
+			</p>
+		</div>
+		<div class="allMeau left clear" id="allMeau">
+			<p>
+				<span class="al">查看全部</span>
+				<a href="" class="all"></a>
+			</p>
+			<ul class="navList">
+				<li>
+					<p class="navTitle"><a href="">男装 </a><span>/</span><a href="">女装</a></p>
+					<!--二级下拉右侧--> 
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href="">男士上装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">POLO衫</a>
+								<a href="">男T恤</a>
+								<a href="">衬衫</a>
+								<a href=""> 西服/套装  </a>
+								<a href="">卫衣</a>
+								<a href="">针织衫</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士下装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">牛仔裤</a>
+								<a href="">休闲裤</a>
+								<a href="">西裤</a>
+								<a href="">短裤</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士外套</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">风衣/大衣</a>
+								<a href="">皮衣/夹克</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">女士上装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">T恤/polo   </a>
+								<a href="">衬衫/雪纺</a>
+								<a href="">针织/羊毛/羊绒衫</a>
+								<a href=""> 外套 </a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>女裙</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">连衣裙</a>
+								<a href="">半身裙</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士上装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">短裤</a>
+								<a href="">牛仔裤</a>
+								<a href="">休闲裤</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">特色女装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">婚纱/礼服</a>
+							</div>
+						</li>
+					</ul>
+					<!--二级下拉右侧-->
+				</li> 
+				<li>
+					<p class="navTitle"><a href="">眼镜</a><span>/</span><a href="">配饰</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>眼镜</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">眼镜</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>内衣</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">文胸/套装</a>
+								<a href="">女士内裤</a>
+								<a href="">男士内裤</a>
+								<a href="">睡衣/家居服</a>
+								<a href="">秋衣秋裤</a>
+								<a href="">功能内衣</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>袜子</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">袜子</a>
+								<a href="">连裤袜/丝袜</a>
+							</div>
+						</li>
+						<li> </li>
+						<li> </li>
+						<li> </li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>配饰</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">丝巾围巾</a>
+								<a href="">领带</a>
+								<a href="">腰带/礼盒</a>
+								<a href="">遮阳/雨伞</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">鞋靴</a><span>/</span><a href="">运动</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>男鞋</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">商务鞋</a>
+								<a href="">板鞋 </a>
+								<a href="">休闲鞋</a>
+								<a href="">男靴</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>女鞋</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">单鞋</a>
+								<a href="">休闲鞋</a>
+								<a href="">板鞋</a>
+								<a href="">凉鞋</a>
+								<a href="">女靴</a>
+							</div>
+						</li>   
+						<li>
+							<p class="left"><a href="">运动服饰</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">运动衣/裤</a>
+								<a href="">套装/外套</a>
+								<a href="">运动袜</a>
+								<a href="">泳衣</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href="">户外鞋服</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">速干衣裤</a>
+								<a href="">冲锋衣裤</a>
+								<a href="">户外鞋</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbspT"></i>运动鞋</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">跑鞋</a>
+								<a href="">休闲鞋</a>
+								<a href="">训练鞋</a>
+								<a href="">拖鞋</a>
+							</div>
+						</li> 
+						<li>
+							<p class="left"><a href="">运动设备</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">羽毛球拍</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">皮具</a><span>/</span><a href="">出行</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>男包</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">单肩包</a>
+								<a href="">钱包手包</a>
+								<a href="">卡包/钥匙包</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>女包</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">挎包</a>
+								<a href="">钱包手包</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href="">真皮配件</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">皮带</a>
+								<a href="">数码/文具</a>
+							</div>
+						</li>
+						<li> 
+							<p class="left"><a href="">功能拉箱</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">拉杆箱</a>
+								<a href="">休闲包</a>
+								<a href="">妈咪包</a>
+							</div>
+						</li>
+						<li> 
+							<p class="left"><a href="">出门必备</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">洗漱/化妆包</a>
+								<a href="">颈枕/眼罩</a>
+								<a href="">雨/遮阳伞</a>
+								<a href="">口罩</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">居家</a><span>/</span><a href="">婴童</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>家纺</a><span>></span></p>
+							<div class="left navSubCon">       
+								<a href="">枕头枕芯</a>
+								<a href="">床品套件</a>
+								<a href="">被子被芯</a>
+								<a href="">凉席/毯子</a>
+								<a href="">床垫/床褥</a>
+								<a href="">毛浴巾/浴衣</a>
+								<!-- <a href="">靠枕/抱枕 </a>
+								<a href="">垫毯/拖鞋</a>
+								<a href="">窗帘/窗纱</a> -->
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">生活用品</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">清洁用品</a>
+								<a href="">收纳用品</a>
+								<a href="">洗晒/熨烫</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士外套</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">风衣/大衣</a>
+								<a href="">皮衣/夹克</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">婴儿服饰 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">婴儿用品</a>
+								<a href="">牵引包</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">玩具床车</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">儿童玩具 </a>
+								<a href="">童床童车</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">童装童靴 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">上衣</a>
+								<a href="">下装</a>
+								<a href="">鞋靴</a>
+								<a href="">外套/棉服</a>
+								<a href="">套装/亲子</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">儿童配饰</a><span>></span></p>
+							<div class="left navSubCon">    
+								<a href="">书包/文具</a>
+								<a href="">儿童拉杆箱</a>
+								<a href="">内衣/睡衣</a>
+								<a href="">童袜</a>
+								<a href="">帽子/围巾</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">美妆</a><span>/</span><a href="">个护</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href="">基础护肤</a><span>></span></p>
+							<div class="left navSubCon">       
+								<a href="">水/精华/霜</a>
+								<a href="">面膜</a>
+								<a href="">洁面/卸妆</a>
+								<a href="">男士护肤</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">香水彩妆</a><span>></span></p>
+							<div class="left navSubCon"> 
+								<a href="">底妆</a>
+								<a href="">唇妆</a>
+								<a href="">眼妆</a>
+								<a href="">香水</a>
+								<a href="">美甲</a>
+								<a href="">美妆工具</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">洗发护发</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">洗发护发</a>
+								<a href="">美发工具</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">身体护理</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">沐浴润肤</a>
+								<a href="">精油</a>
+								<a href="">护理工具</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>个护</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">声波振动牙刷</a>
+								<a href="">剃须/毛刀</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">厨具</a><span>/</span><a href="">家电</a><span>/</span><a href="">数码</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>厨具</a><span>></span></p>
+							<div class="left navSubCon">   
+								<a href="">刀具菜板</a>
+								<a href="">烹饪锅具</a>
+								<a href="">餐具</a>
+								<a href="">厨房配件</a>
+								<a href="">清洁/收纳</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>水杯</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">水杯水壶</a>
+								<a href="">酒杯/茶杯</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>家电</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">厨房小电</a>
+								<a href="">生活电器</a>
+								<a href="">个护健康</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>数码</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">数据线</a>
+								<a href="">充电设备</a>
+								<a href="">数码配件</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">家装</a><span>/</span><a href="">家具</a><span>/</span><a href="">汽配</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href="">五金工具</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">小工具</a>
+								<a href="">锁具</a>
+								<a href="">开关插</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href="">厨卫用品</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">淋浴花洒</a>
+								<a href="">龙头/水槽</a>
+								<a href="">厨卫挂件</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">家装软饰</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">台灯</a>
+								<a href="">落地灯</a>
+								<a href="">挂钟</a>
+								<a href="">装饰画</a>
+								<a href="">相框</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>卧室</a><span>></span></p>
+							<div class="left navSubCon">   
+								<a href="">床</a>
+								<a href="">床垫</a>
+								<a href="">储物</a>
+								<a href=""> 梳妆台/镜</a>
+								<a href="">清洁/收纳</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>书房</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">办公椅</a>  
+								<a href="">书架/书柜</a>
+								<a href="">书桌</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>客厅</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">茶几</a>
+								<a href="">储物/电视柜</a>
+								<a href="">沙发/椅</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>餐厅</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">餐椅</a>
+								<a href="">餐边柜</a>
+								<a href="">餐桌</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">儿童家具</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">儿童桌椅</a>
+								<a href="">儿童床</a>
+								<a href="">床垫</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>汽配</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">汽车配饰</a>
+								<a href="">车充</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 头部 end -->
+
+<!-- 小头部c-start  start-->
+<div class="c-start">
+	<a href="">首页</a>    <span><b>   >   </b>    专题    <span class="test">>    正文</span> </span>
+</div>
+<!--小头部c-start  end  -->
+
+<!-- 正文 start -->
+<div class="article">
+<!-- 标题 start -->
+	<div class="article-title">
+		<span>vol01</span>
+	
+	<dl>
+		<dt>印度抵制中国制造？痴人说梦！</dt>
+		<dd>毕胜&nbsp;&nbsp;&nbsp;&nbsp;2017-08-27</dd>
+	</dl>
+	</div>
+<!-- 标题 end -->
+
+	<div class="article-content">
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>自6月18日起，印军非法越境进入中国领土已达两个多月。这期间，关于中印的各种话题甚嚣尘上。前不久，有印度媒体报道，印度执政党公开呼吁，抵制中国制造。</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>不料，此消息一出就被自己人打了脸，印度国民纷纷不买账。今天印度的手机市场，半壁江山都被中国厂商拿下，有70%的日用品都是中国生产，想要完全抵制中国制造，简直是痴人说梦。更何况，印度有家调查机构发布报告称，印度制造的产品价格高昂，而中国产品的价格最有优势，且品质也不错，相比印度当地的商品，印度消费者更愿意购买中国制造。</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>早在很多年前，我们就发现，从国外买东西带回国内，打开包装看到的都是Made In China。中国制造早在全球范围内无孔不入，想和它彻底切断联系，不太可能成为现实。</span></p>
+		
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>此外，中国制造走过几十年的历程，内容和技术都在不断完善和进步，其影响力早就不限于丝绸、茶叶和老干妈，也在努力摆脱“廉价商品”代名词的标签。很多优秀的中国制造商不仅有能力为国际大牌代工，掌握了和世界顶级大牌同样的技术，也注重并开始着手本土品牌的技术研发和科技创新。</span></p>
+
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>必要正是通过C2M模式，集合了一大批这样的优秀制造商。他们秉承工匠精神，精益求精，产品从选材到加工，都经过了层层把关和严格审核。与此同时，他们在工艺和技术上是十分讲究，愿意花重金打造属于自己的创意设计和独家技术。</span></p>	
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>今天，我们就介绍几家必要平台的合作制造商，他们都是中国制造的佼佼者。</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span>今天，我们就介绍几家必要平台的合作制造商，他们都是中国制造的佼佼者。</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; text-align: center; line-height: normal;">
+			<a href=""><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;"></span>
+			<img src="../images/mainbody/body.jpg">
+			</a>
+		</p>
+		<p style="margin-top: 15px; margin-bottom: 20px; text-align: center; line-height: normal;">点击图片进入商家页面</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;">HALLUX（好乐世）休闲鞋品牌，一直是世界知名品牌HOKA、SKECHERS、SAUCONY的供应商，可以确保每双鞋子的技术、工艺和整体品质都达到甚至超过国际品牌的标准，并邀请专业设计团队深度配合，保证产品的原创性与独特性，从而使品质与风格完美平衡。</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; text-align: center; line-height: normal;">
+			<a href=""><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;"></span>
+			<img src="../images/mainbody/body2.jpg">
+			</a>
+		</p>
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;">点击图片进入商家页面</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;">CERULEAN美妆品牌，其产品均来自于各国品牌厂商原料供应商，其中包括瑞士、法国、日本、韩国等，涉及Cellcare Lab、Sisley、CPB、Kiehl's、MISSHA等国际品牌，还拥有独家的热感技术，有可供查询的产品技术专利证明。</span></p>
+		<p style="margin-top: 15px; margin-bottom: 20px; text-align: center; line-height: normal;">
+			<a href=""><span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;"></span>
+			<img src="../images/mainbody/body3.jpg">
+			</a>
+		</p>
+		<p style="margin-top: 15px; margin-bottom: 20px; text-align: center; line-height: normal;">点击图片进入商家页面</span></p>
+			<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;">WINWAY旅行用品是中国最大最专业的PP箱设计制造企业，年产量200万只以上，主要给Samsonite、Delsey等世界一线箱包品牌提供方案，产品行销全球，享誉世界。有独立设计师团队，所有产品均有全球专利，一直专注于绿色环保PP材质旅行箱的研发和创造。</span></p>
+			<p style="margin-top: 15px; margin-bottom: 20px; line-height: 3em;"><span span style="font-family: 微软雅黑,Microsoft YaHei; font-size: 16px;">由于篇幅有限，先介绍以上三家，像必要眼镜、厨具、家电及男装女装等等几乎所有产品的商家，都是行业内一顶一的制造商。正是他们所代表的中国制造，让中国在世界上扬眉吐气。</span></p>
+			<p class="article-readNum">
+				阅读： 	<span>73327</span>
+			</p>
+			<div class="article-comments">
+				<div class="comments-publish">
+					<i></i>
+					<p>
+						<textarea maxlength="300" placeholder="写下你的评论" id="commentsArea"></textarea>
+						<span id="commitBtn">发表</span>
+						<i></i>
+						</p>
+						
+						<b>共 <i>0</i>条评论</b>
+					
+				</div>
+				<ul>
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>by_tkAHYnHO</span>
+							<i>2017-08-28 19:04:53</i>
+						</div>
+						<p>支持国货</p>
+					</li>
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>BBDJJJDJ</span>
+							<i>2017-08-28 18:39:09</i>
+						</div>
+						<p>支持中国货</p>
+					</li>
+
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>by_4296372</span>
+							<i>2017-08-28 17:21:16</i>
+						</div>
+						<p>中国制造！</p>
+					</li>
+
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>雞仔餅</span>
+							<i>2017-08-28 17:06:32</i>
+						</div>
+						<p>手串</p>
+					</li>
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>by_4246617</span>
+							<i>2017-08-28 17:01:26</i>
+						</div>
+						<p>支持必要，相信必要！</p>
+					</li>
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>杨红红</span>
+							<i>2017-08-28 16:59:53</i>
+						</div>
+						<p>必要，我要的</p>
+					</li>
+
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>by_4227775</span>
+							<i>2017-08-28 16:43:37</i>
+						</div>
+						<p>想要儿童冲锋衣</p>
+					</li>
+
+
+
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>手机没信号</span>
+							<i>2017-08-28 16:35:12</i>
+						</div>
+						<p>電動剃須刀</p>
+					</li>
+
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+
+							<span>fiona7117</span>
+							<i>2017-08-28 15:39:23</i>
+						</div>
+						<p>洗衣液，洗衣片，消毒水，上一点哦，现在某宝都不逛了，信赖必家</p>
+					</li>
+
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+
+
+							<span>必勇毅</span>
+							<i>2017-08-28 15:26:18</i>
+						</div>
+						<p>隨便哪個國家都抵制不了吧。。</p>
+					</li>
+					<li>
+						<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>最爱赚赚</span>
+							<i>2017-08-28 15:04:41</i>
+						</div>
+						<p>求上婴童护肤，宝宝的太少了，宝妈们很期待呢，如果能上尿不湿，简直完美</p>
+					</li>
+
+					<li>
+					<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>鈊銪獨鍾</span>
+							<i>2017-08-28 14:36:04</i>
+						</div>
+						<p>女士的豆豆鞋怎么找不到了？男士的鞋子好多啊，女士的能多些么？</p>
+					</li>
+					<li>
+					<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>Suosuo</span>
+							<i>2017-08-28 14:21:37</i>
+						</div>
+						<p>上个挂烫机</p>
+					</li>
+					<li>
+					<span>
+							<img src="../images/mainbody/admin.png">
+						</span>
+						<div>
+							<span>乐山智水</span>
+							<i>2017-08-28 13:29:54</i>
+						</div>
+						<p>上点酷酷的皮衣…这些太单调了</p>
+					</li>
+
+				</ul>
+			</div>
+
+	</div>
+
+	
+
+
+
+
+</div>
+
+<div class="article-more">
+		<div class="more-title">
+			<span>更多原创文章</span>
+			<a href="">查看全部 ></a>
+		</div>
+		<ul>
+			<li>
+				<img src="../images/mainbody/body4.jpg">
+				<dl>
+					<dt>
+						<a href="">印度终于撤军，但仍欠中国一个道歉！</a>
+					</dt>
+					<dd>老必&nbsp;&nbsp;&nbsp;&nbsp;2017-08-29</dd>
+				</dl>
+			</li>
+			<li>
+				<img src="../images/mainbody/body5.jpg">
+				<dl>
+					<dt>
+						<a href="">七夕互动赢大奖！ | 每周一送礼</a>
+					</dt>
+					<dd>老必&nbsp;&nbsp;&nbsp;&nbsp;2017-08-28</dd>
+				</dl>
+			</li>
+		</ul>
+	</div>
+
+<!-- 正文 end -->
+
+
+
+
+
+
+<!-- 点击分享 start -->
+<div class="shareCon">
+
+
+		<div class="share-main">
+				<p class="conP">分享 <b class="close"></b></p>
+
+			<ul class="shact-ul">
+				<li>
+					<img src="../images/menwear/getQRCode.jpg">
+					<p>扫一扫，分享给好友！</p>
+				</li>
+				<li>
+
+					<ul class="hail-fellow">
+						<li>
+							<a href="#"></a>
+							<span>QQ空间</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>新浪微博</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>Facebook</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>Twitter</span>
+						</li>
+					</ul>
+
+				</li>
+			</ul>
+
+		</div>
+
+
+</div>
+<!-- 点击分享 ennd -->
+
+
+
+<!-- 尾部 start -->
+<div class="footer clear">
+	<div class="KwrapB clear">
+		<ul class="footerServe clear">
+			<li>
+				<dl>
+					<dt class="serve-make"></dt>
+					<dd><a href="">直连一线制造</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="serve-backage"></dt>
+					<dd><a href="">全品类包邮</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="serve-pay"></dt>
+					<dd><a href="">平台先行赔付</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="serve-refund"></dt>
+					<dd><a href="">7天无忧退换货</a></dd>
+				</dl>
+			</li>
+		</ul>
+		<div class="footer-main clear">
+	    	<ul class="footer-detail left clear">
+	    		<li>
+	    			<h2>帮助中心</h2>
+	    			<ul>
+	    				<li><a href="http://www.biyao.com/minisite/bzzx" target="_blank">平台政策</a></li>
+	    				<li><a href="javascript:void(0)" id="supEnter">商家入驻</a></li>
+	    			</ul>
+	    		</li>
+	    		<li>
+	    			<h2>关注必要</h2>
+	    			<ul>
+	    				<li><a target="_blank" href="http://weibo.com/biyaoshangcheng">新浪微博</a></li>
+	    				<li class="footer-wxCode">
+	    					<a href="javascript:void(0)">官方微信</a>
+	    					<div><i></i><span></span></div>
+	    				</li>
+	    			</ul>
+	    		</li>
+	    		<li>
+	    			<h2>关于必要</h2>
+	    			<ul>
+	    				<li><a target="_blank" href="http://www.biyao.com/minisite/ljby">了解必要</a></li>
+	    				<li><a target="_blank" href="http://www.biyao.com/help/8.html">加入必要</a></li>
+	    				<li><a target="_blank" href="http://www.biyao.com/help/tel.html">联系我们</a></li>
+	    			</ul>
+	    		</li>
+	    		<li>
+	    			<h2>下载必要APP</h2>
+	    			<p></p>
+	    		</li>
+	    	</ul>
+	    	<dl class="footer-contact left clear">
+	    		<dt>服务监督邮箱</dt>
+	    		<dd>service@biyao.com</dd>
+	    	</dl>
+	    </div>
+	    <div class="footer-info clear">
+	    	<p>
+		    	<span>Copyright © 2017, BIYAO.COM</span>
+		    	<span>珠海必要科技有限公司</span>
+		    	<span>
+		    		<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44049102496139" target="_blank">粤公网安备44049102496139号</a>
+		            <a href="http://www.miibeian.gov.cn" target="_blank">粤ICP备13088531号-2</a>
+		        </span>
+	    	</p>
+	    	<p><span>公司地址：珠海市唐家湾镇哈工大路1号1栋E301-15</span><span>公司电话：0756-3635580</span></p>
+	    </div>
+	    <ul class="rightBar">
+	    	<!-- <li class="rightBar-share"></li> -->
+			<li class="rightBar-code">
+				<div>
+					<span></span>
+					<dl>
+						<dt></dt>
+						<dd>扫码下载必要APP</dd>
+					</dl>
+				</div>
+			</li>
+			<li class="rightBar-top"></li>
+		</ul>
+	</div>
+</div>
+<!-- 尾部 end -->
+
+
+</body>
+</html>
+<script src="../js/HFpublic.js"></script>
+<!-- <script type="text/javascript" src="../js/lookAll.js"></script> -->

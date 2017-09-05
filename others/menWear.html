@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>查看全部--黄健聪</title>
+	<link rel="stylesheet" href="../css/HFpublic.css">
+	<link rel="stylesheet" href="../css/reset2.css">
+	<script src="../js/jquery-1.11.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/lookAll.css">
+</head>
+<body>
+<!-- 头部 start -->
+<div class="kTop clear">
+	<div class="KwrapB clear">
+		<ul class="header-nav left clear">
+			<li><a href="" target="_blank">首页</a><b></b></li>
+			<li><a href="" target="_blank">平台政策</a><b></b></li>
+			<li><a href="" id="supCenter">商家入驻</a></li>
+		</ul>
+		 <ul class="header-user right">
+			<li class="user-out">
+				<a href="" id="loginBtn" class="user-login">登录</a>
+				<a href="" id="registBtn">注册</a>
+				<b></b>
+			</li>
+			<li class="user-center" style="display:none">
+				<a href="" id="userName"><span></span></a>
+				<div>
+					<i></i>
+					<ul>
+						<li><a href="" target="_blank">我的订单</a></li>
+						<li><a href="" target="_blank">个人中心</a></li>
+						<li><a href="">退出登录</a></li>
+					</ul>
+				</div>
+				<b></b>
+			</li>
+			<li class="user-app">
+				<a href="">下载必要APP</a>
+				<b></b>
+				<div class="block">
+					<i></i>
+					<dl>
+						<dt></dt>
+						<dd>
+							<span>我要的 才是必要的</span>
+							<p></p>	
+						</dd>
+					</dl>
+				</div> 
+			</li>
+			<li class="user-msg">
+				<a href="" class="msg-center">
+					<span class="msg-title">消息中心</span>
+					<i id="unread">0</i>
+				</a>
+			</li>
+			<li class="user-shopCar">
+				<a href="" target="_blank">购物车<i id="shopCar">0</i></a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="nav clear" id="nav">
+	<div class='KwrapB clear'>
+		<a href="" class="nav-logo left" id="navLogo"></a>
+		<div class="nav-search right clear" id="navSearch">
+			<p>
+				<input type="text" name="" value="" placeholder="请输入要搜索的商品">
+				<span></span>
+			</p>
+		</div>
+		<div class="allMeau left clear" id="allMeau">
+			<p>
+				<span class="al">查看全部</span>
+				<a href="" class="all"></a>
+			</p>
+			<ul class="navList">
+				<li>
+					<p class="navTitle"><a href="">男装 </a><span>/</span><a href="">女装</a></p>
+					<!--二级下拉右侧--> 
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href="">男士上装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">POLO衫</a>
+								<a href="">男T恤</a>
+								<a href="">衬衫</a>
+								<a href=""> 西服/套装  </a>
+								<a href="">卫衣</a>
+								<a href="">针织衫</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士下装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">牛仔裤</a>
+								<a href="">休闲裤</a>
+								<a href="">西裤</a>
+								<a href="">短裤</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士外套</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">风衣/大衣</a>
+								<a href="">皮衣/夹克</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">女士上装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">T恤/polo   </a>
+								<a href="">衬衫/雪纺</a>
+								<a href="">针织/羊毛/羊绒衫</a>
+								<a href=""> 外套 </a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>女裙</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">连衣裙</a>
+								<a href="">半身裙</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士上装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">短裤</a>
+								<a href="">牛仔裤</a>
+								<a href="">休闲裤</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">特色女装 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">婚纱/礼服</a>
+							</div>
+						</li>
+					</ul>
+					<!--二级下拉右侧-->
+				</li> 
+				<li>
+					<p class="navTitle"><a href="">眼镜</a><span>/</span><a href="">配饰</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>眼镜</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">眼镜</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>内衣</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">文胸/套装</a>
+								<a href="">女士内裤</a>
+								<a href="">男士内裤</a>
+								<a href="">睡衣/家居服</a>
+								<a href="">秋衣秋裤</a>
+								<a href="">功能内衣</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>袜子</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">袜子</a>
+								<a href="">连裤袜/丝袜</a>
+							</div>
+						</li>
+						<li> </li>
+						<li> </li>
+						<li> </li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>配饰</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">丝巾围巾</a>
+								<a href="">领带</a>
+								<a href="">腰带/礼盒</a>
+								<a href="">遮阳/雨伞</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">鞋靴</a><span>/</span><a href="">运动</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>男鞋</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">商务鞋</a>
+								<a href="">板鞋 </a>
+								<a href="">休闲鞋</a>
+								<a href="">男靴</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>女鞋</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">单鞋</a>
+								<a href="">休闲鞋</a>
+								<a href="">板鞋</a>
+								<a href="">凉鞋</a>
+								<a href="">女靴</a>
+							</div>
+						</li>   
+						<li>
+							<p class="left"><a href="">运动服饰</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">运动衣/裤</a>
+								<a href="">套装/外套</a>
+								<a href="">运动袜</a>
+								<a href="">泳衣</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href="">户外鞋服</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">速干衣裤</a>
+								<a href="">冲锋衣裤</a>
+								<a href="">户外鞋</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbspT"></i>运动鞋</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">跑鞋</a>
+								<a href="">休闲鞋</a>
+								<a href="">训练鞋</a>
+								<a href="">拖鞋</a>
+							</div>
+						</li> 
+						<li>
+							<p class="left"><a href="">运动设备</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">羽毛球拍</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">皮具</a><span>/</span><a href="">出行</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>男包</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">单肩包</a>
+								<a href="">钱包手包</a>
+								<a href="">卡包/钥匙包</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>女包</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">挎包</a>
+								<a href="">钱包手包</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href="">真皮配件</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">皮带</a>
+								<a href="">数码/文具</a>
+							</div>
+						</li>
+						<li> 
+							<p class="left"><a href="">功能拉箱</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">拉杆箱</a>
+								<a href="">休闲包</a>
+								<a href="">妈咪包</a>
+							</div>
+						</li>
+						<li> 
+							<p class="left"><a href="">出门必备</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">洗漱/化妆包</a>
+								<a href="">颈枕/眼罩</a>
+								<a href="">雨/遮阳伞</a>
+								<a href="">口罩</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">居家</a><span>/</span><a href="">婴童</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>家纺</a><span>></span></p>
+							<div class="left navSubCon">       
+								<a href="">枕头枕芯</a>
+								<a href="">床品套件</a>
+								<a href="">被子被芯</a>
+								<a href="">凉席/毯子</a>
+								<a href="">床垫/床褥</a>
+								<a href="">毛浴巾/浴衣</a>
+								<!-- <a href="">靠枕/抱枕 </a>
+								<a href="">垫毯/拖鞋</a>
+								<a href="">窗帘/窗纱</a> -->
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">生活用品</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">清洁用品</a>
+								<a href="">收纳用品</a>
+								<a href="">洗晒/熨烫</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">男士外套</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">风衣/大衣</a>
+								<a href="">皮衣/夹克</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">婴儿服饰 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">婴儿用品</a>
+								<a href="">牵引包</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">玩具床车</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">儿童玩具 </a>
+								<a href="">童床童车</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">童装童靴 </a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">上衣</a>
+								<a href="">下装</a>
+								<a href="">鞋靴</a>
+								<a href="">外套/棉服</a>
+								<a href="">套装/亲子</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">儿童配饰</a><span>></span></p>
+							<div class="left navSubCon">    
+								<a href="">书包/文具</a>
+								<a href="">儿童拉杆箱</a>
+								<a href="">内衣/睡衣</a>
+								<a href="">童袜</a>
+								<a href="">帽子/围巾</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">美妆</a><span>/</span><a href="">个护</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href="">基础护肤</a><span>></span></p>
+							<div class="left navSubCon">       
+								<a href="">水/精华/霜</a>
+								<a href="">面膜</a>
+								<a href="">洁面/卸妆</a>
+								<a href="">男士护肤</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">香水彩妆</a><span>></span></p>
+							<div class="left navSubCon"> 
+								<a href="">底妆</a>
+								<a href="">唇妆</a>
+								<a href="">眼妆</a>
+								<a href="">香水</a>
+								<a href="">美甲</a>
+								<a href="">美妆工具</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">洗发护发</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">洗发护发</a>
+								<a href="">美发工具</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">身体护理</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">沐浴润肤</a>
+								<a href="">精油</a>
+								<a href="">护理工具</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>个护</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">声波振动牙刷</a>
+								<a href="">剃须/毛刀</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">厨具</a><span>/</span><a href="">家电</a><span>/</span><a href="">数码</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>厨具</a><span>></span></p>
+							<div class="left navSubCon">   
+								<a href="">刀具菜板</a>
+								<a href="">烹饪锅具</a>
+								<a href="">餐具</a>
+								<a href="">厨房配件</a>
+								<a href="">清洁/收纳</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>水杯</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">水杯水壶</a>
+								<a href="">酒杯/茶杯</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>家电</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">厨房小电</a>
+								<a href="">生活电器</a>
+								<a href="">个护健康</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>数码</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">数据线</a>
+								<a href="">充电设备</a>
+								<a href="">数码配件</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<p class="navTitle"><a href="">家装</a><span>/</span><a href="">家具</a><span>/</span><a href="">汽配</a></p>
+					<ul class="navSub">
+						<li>
+							<p class="left"><a href="">五金工具</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">小工具</a>
+								<a href="">锁具</a>
+								<a href="">开关插</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href="">厨卫用品</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">淋浴花洒</a>
+								<a href="">龙头/水槽</a>
+								<a href="">厨卫挂件</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">家装软饰</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">台灯</a>
+								<a href="">落地灯</a>
+								<a href="">挂钟</a>
+								<a href="">装饰画</a>
+								<a href="">相框</a>
+							</div>
+						</li>  
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>卧室</a><span>></span></p>
+							<div class="left navSubCon">   
+								<a href="">床</a>
+								<a href="">床垫</a>
+								<a href="">储物</a>
+								<a href=""> 梳妆台/镜</a>
+								<a href="">清洁/收纳</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>书房</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">办公椅</a>  
+								<a href="">书架/书柜</a>
+								<a href="">书桌</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>客厅</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">茶几</a>
+								<a href="">储物/电视柜</a>
+								<a href="">沙发/椅</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>餐厅</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">餐椅</a>
+								<a href="">餐边柜</a>
+								<a href="">餐桌</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href="">儿童家具</a><span>></span></p>
+							<div class="left navSubCon">
+								<a href="">儿童桌椅</a>
+								<a href="">儿童床</a>
+								<a href="">床垫</a>
+							</div>
+						</li>
+						<li>
+							<p class="left"><a href=""><i class="nbsp"></i>汽配</a><span>></span></p>
+							<div class="left navSubCon">  
+								<a href="">汽车配饰</a>
+								<a href="">车充</a>
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 头部 end -->
+
+
+
+
+
+<!-- 小头部c-start  start-->
+<div class="c-start">
+	<a href="">首页</a>    <span><b>   >   </b>   男装 </span>
+</div>
+<!--小头部c-start  end  -->
+
+<!-- 分类栏c-cateBread start -->
+<div class="c-cateBread">
+<span>男装：</span>
+<ul>
+	<li>男装</li>
+</ul>
+</div>
+<!-- 分类栏c-cateBread end -->
+
+<!-- 标题category-title start-->
+<div class="c-category-title">
+	<p>POLO衫</p>
+</div>
+<!-- 标题category-title end  -->
+
+<!-- 小的一样的 start -->
+<ul class="c-category-container">
+<!--  四个 start -->
+
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear1.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">商务休闲冰棉polo男短T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear2.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">140S/3丝光纯棉珠地POLO</a>
+				<a href="" class="c-gigPtwo">¥279</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear3.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">SofTAL免烫POLO衫</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear4.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">珠地网眼净色长袖Polo</a>
+				<a href="" class="c-gigPtwo">¥199</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+
+<!-- 四个 start -->
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear5.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			100支双丝光真贝扣Polo衫</a>
+				<a href="" class="c-gigPtwo">¥188</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear6.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">70S/2丝光棉麻男T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear7.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">200S/2丝光商务立领男T</a>
+				<a href="" class="c-gigPtwo">¥379</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear8.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">休闲印花短袖POLO衫</a>
+				<a href="" class="c-gigPtwo">¥179</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+<!-- 四个 start -->
+
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear9.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			100支双丝光真贝扣Polo衫</a>
+				<a href="" class="c-gigPtwo">¥188</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear10.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">70S/2丝光棉麻男T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear11.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">200S/2丝光商务立领男T</a>
+				<a href="" class="c-gigPtwo">¥379</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear12.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">休闲印花短袖POLO衫</a>
+				<a href="" class="c-gigPtwo">¥179</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+<!-- 四个 start -->
+
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear13.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			60S/2提花大眼珠地POLO</a>
+				<a href="" class="c-gigPtwo">¥219</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear14.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">经典条纹纯棉百搭POLO衫</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear15.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">70支双丝光金属四合扣POLO</a>
+				<a href="" class="c-gigPtwo">¥199</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear16.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			定位宽条POLO衫</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+<!-- 四个 start -->
+
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear17.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			几何线条印花POLO衫</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear18.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			120支专利空调丝爽滑POLO</a>
+				<a href="" class="c-gigPtwo">¥299</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear19.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">定位条短袖POLO衫</a>
+				<a href="" class="c-gigPtwo">¥179</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear20.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			纯棉珠地短袖POLO</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+	<!-- 四个 end -->
+<!-- 四个 start -->
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear21.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			纯棉衬衫领3色POLO衫</a>
+				<a href="" class="c-gigPtwo">¥199</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear22.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			商务休闲冰棉polo男短T</a>
+				<a href="" class="c-gigPtwo">¥239</a>
+			</div>
+		</a>
+	</li>
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear23.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">休闲冰棉POLO男短T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear24.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			70S/2丝光棉麻间条男短T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+	<!-- 四个 end -->
+<!-- 四个 start -->
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear25.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			纯棉珠地净色Polo</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear26.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			男休闲POLO衫棉短T</a>
+				<a href="" class="c-gigPtwo">¥269</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear27.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">迷彩纯棉珠地男POLO</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear28.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+				冰棉竖条纹十六针POLO衫</a>
+				<a href="" class="c-gigPtwo">¥239</a>
+			</div>
+		</a>
+	</li>
+	<!-- 四个 end -->
+<!-- 四个 start -->
+<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/manwear29.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+			冰棉提花POLO短袖T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+	<!-- 四个 end -->
+</ul>
+<!-- 小的一样的 end -->
+
+
+
+
+
+<!-- 标题category-title start-->
+<div class="c-category-title">
+	<p>男T恤</p>
+</div>
+<!-- 标题category-title end  -->
+
+<!-- 小的一样的 start -->
+<ul class="c-category-container">
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt1.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">经典纯色圆领T恤（2件装</a>
+				<a href="" class="c-gigPtwo">¥199</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt2.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">莫代尔织带点缀圆领T恤</a>
+				<a href="" class="c-gigPtwo">¥139</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt3.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">莫代尔弹力印花圆领T恤</a>
+				<a href="" class="c-gigPtwo">¥149</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt4.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">虎头刺绣短袖T恤</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt5.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">舒适竹节棉印花圆领T恤</a>
+				<a href="" class="c-gigPtwo">¥139</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt6.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">龙图腾男士纯棉T恤</a>
+				<a href="" class="c-gigPtwo">¥179</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt7.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">3D压模假拉链莫代尔T恤</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt8.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">65S/2公鸡剪线大提花男短T</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt9.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">个性图案纯棉短袖T恤</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt10.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">V领短T恤2件装</a>
+				<a href="" class="c-gigPtwo">¥219</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt11.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">60S/2水柔丝光变色骷髅短T</a>
+				<a href="" class="c-gigPtwo">¥149</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt12.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">小V领长袖休闲T恤</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt13.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">男子运动休闲黑白T</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt14.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">男圆领精梳冰棉短袖T恤</a>
+				<a href="" class="c-gigPtwo">¥219</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt15.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">猫头鹰串珠绣标纯棉T恤</a>
+				<a href="" class="c-gigPtwo">¥169</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt16.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">男子条纹圆领运动休闲T</a>
+				<a href="" class="c-gigPtwo">¥149</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt17.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">水柔丝光海洋数码印花短T</a>
+				<a href="" class="c-gigPtwo">¥159</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt18.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">水柔丝光领口绣花短T</a>
+				<a href="" class="c-gigPtwo">¥139</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt19.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">水柔丝光复合牙刷印花短T</a>
+				<a href="" class="c-gigPtwo">¥159</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt20.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">黑白圆领短T2件装</a>
+				<a href="" class="c-gigPtwo">¥239</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+
+
+
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt21.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">虎头印花长袖T恤</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt22.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">盘带绣长袖T恤</a>
+				<a href="" class="c-gigPtwo">¥189</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt23.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+				拼色冰棉男短T</a>
+				<a href="" class="c-gigPtwo">¥239</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt24.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">圆领撞色套头冰棉针织T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt25.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">情侣条纹冰棉短T</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt26.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">经典简约提花圆领针织体恤</a>
+				<a href="" class="c-gigPtwo">¥249</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt27.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+				条纹冰棉男短T</a>
+				<a href="" class="c-gigPtwo">¥239</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-right">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt28.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">飞鸟串珠绣标短袖T恤</a>
+				<a href="" class="c-gigPtwo">¥159</a>
+			</div>
+		</a>
+	</li>
+<!-- 四个 end -->
+
+<!--  四个 start -->
+	<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt29.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">真丝绵混纺方格空调衫</a>
+				<a href="" class="c-gigPtwo">¥299</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt30.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">圆领短袖带兜T恤</a>
+				<a href="" class="c-gigPtwo">¥209</a>
+			</div>
+		</a>
+	</li>
+
+		<li class="fig-left">
+		<a href="">
+			<div class="c-glassesFig">
+			<img src="../images/menwear/shirt31.jpg">
+			</div>
+			<div class="c-glassesFig-ptwo">
+				<a href="" class="c-gigPone">
+				经典黑白长袖T恤（2件装）</a>
+				<a href="" class="c-gigPtwo">¥219</a>
+			</div>
+		</a>
+	</li>
+
+		
+<!-- 四个 end -->
+
+</ul>
+
+<!-- 点击分享 start -->
+<div class="shareCon">
+
+
+		<div class="share-main">
+				<p class="conP">分享 <b class="close"></b></p>
+
+			<ul class="shact-ul">
+				<li>
+					<img src="../images/menwear/getQRCode.jpg">
+					<p>扫一扫，分享给好友！</p>
+				</li>
+				<li>
+
+					<ul class="hail-fellow">
+						<li>
+							<a href="#"></a>
+							<span>QQ空间</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>新浪微博</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>Facebook</span>
+						</li>
+
+						<li>
+							<a href="#"></a>
+							<span>Twitter</span>
+						</li>
+					</ul>
+
+				</li>
+			</ul>
+
+		</div>
+
+
+</div>
+<!-- 点击分享 ennd -->
+
+
+
+<!-- 尾部 start -->
+<div class="footer clear">
+	<div class="KwrapB clear">
+		<ul class="footerServe clear">
+			<li>
+				<dl>
+					<dt class="serve-make"></dt>
+					<dd><a href="">直连一线制造</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="serve-backage"></dt>
+					<dd><a href="">全品类包邮</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="serve-pay"></dt>
+					<dd><a href="">平台先行赔付</a></dd>
+				</dl>
+			</li>
+			<li>
+				<dl>
+					<dt class="serve-refund"></dt>
+					<dd><a href="">7天无忧退换货</a></dd>
+				</dl>
+			</li>
+		</ul>
+		<div class="footer-main clear">
+	    	<ul class="footer-detail left clear">
+	    		<li>
+	    			<h2>帮助中心</h2>
+	    			<ul>
+	    				<li><a href="http://www.biyao.com/minisite/bzzx" target="_blank">平台政策</a></li>
+	    				<li><a href="javascript:void(0)" id="supEnter">商家入驻</a></li>
+	    			</ul>
+	    		</li>
+	    		<li>
+	    			<h2>关注必要</h2>
+	    			<ul>
+	    				<li><a target="_blank" href="http://weibo.com/biyaoshangcheng">新浪微博</a></li>
+	    				<li class="footer-wxCode">
+	    					<a href="javascript:void(0)">官方微信</a>
+	    					<div><i></i><span></span></div>
+	    				</li>
+	    			</ul>
+	    		</li>
+	    		<li>
+	    			<h2>关于必要</h2>
+	    			<ul>
+	    				<li><a target="_blank" href="http://www.biyao.com/minisite/ljby">了解必要</a></li>
+	    				<li><a target="_blank" href="http://www.biyao.com/help/8.html">加入必要</a></li>
+	    				<li><a target="_blank" href="http://www.biyao.com/help/tel.html">联系我们</a></li>
+	    			</ul>
+	    		</li>
+	    		<li>
+	    			<h2>下载必要APP</h2>
+	    			<p></p>
+	    		</li>
+	    	</ul>
+	    	<dl class="footer-contact left clear">
+	    		<dt>服务监督邮箱</dt>
+	    		<dd>service@biyao.com</dd>
+	    	</dl>
+	    </div>
+	    <div class="footer-info clear">
+	    	<p>
+		    	<span>Copyright © 2017, BIYAO.COM</span>
+		    	<span>珠海必要科技有限公司</span>
+		    	<span>
+		    		<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44049102496139" target="_blank">粤公网安备44049102496139号</a>
+		            <a href="http://www.miibeian.gov.cn" target="_blank">粤ICP备13088531号-2</a>
+		        </span>
+	    	</p>
+	    	<p><span>公司地址：珠海市唐家湾镇哈工大路1号1栋E301-15</span><span>公司电话：0756-3635580</span></p>
+	    </div>
+	    <ul class="rightBar">
+	    	<li class="rightBar-share"></li>
+			<li class="rightBar-code">
+				<div>
+					<span></span>
+					<dl>
+						<dt></dt>
+						<dd>扫码下载必要APP</dd>
+					</dl>
+				</div>
+			</li>
+			<li class="rightBar-top"></li>
+		</ul>
+	</div>
+</div>
+<!-- 尾部 end -->
+
+
+</body>
+</html>
+<script src="../js/HFpublic.js"></script>
+<script type="text/javascript" src="../js/lookAll.js"></script>

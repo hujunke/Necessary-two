@@ -9,7 +9,7 @@ a{
 text-decoration:none; 
 }
 i{
-	list-style: normal;
+	font-style: normal;
 }
 .left{
 	float:left;
@@ -28,8 +28,12 @@ i{
  	display:block;
 }
 ::selection{background:#c8dedc;}
-html{overflow-x:hidden;}
+html{
+	overflow-x:hidden;
+}
 body{
-	overflow-y:hidden;
+	overflow-y: hidden;
 	background:#F9F9F9;
+	font-family: 'Mircosoft YaHei';
+
 }

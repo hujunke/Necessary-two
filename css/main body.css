@@ -1,0 +1,214 @@
+.article {
+    width: 1040px;
+    margin: 0 auto;
+    padding: 0 20px;
+    background: #fff;
+}
+.article-title {
+    border-bottom: 2px solid #523669;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.article-title>span {
+    float: left;
+    display: none;
+    height: 120px;
+    width: 120px;
+    background: #523669;
+    line-height: 120px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+}
+.article-title>dl {
+    float: left;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.article-title>dt {
+    font-size: 30px;
+    color: #333;
+}
+.article-title dd {
+    margin-top: 11px;
+    font-size: 16px;
+    color: #808080;
+}
+.article-readNum {
+    margin-top: 60px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: #808080;
+}
+.article-readNum span {
+    color: #f7b200;
+    font-size: 24px;
+}
+.article-comments {
+    margin-top: 60px;
+    overflow: hidden;
+}
+.comments-publish {
+    margin: 20px 0;
+}
+.comments-publish > i {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background: url(http://static2.biyao.com/pc/common/img/master/admin.png?v=biyao_446a6aa) center center no-repeat;
+    vertical-align: top;
+}
+.comments-publish p {
+    position: relative;
+    display: inline-block;
+    width: 780px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+}
+.comments-publish textarea {
+    width: 760px;
+    height: 40px;
+    padding-left: 10px;
+    border: none;
+    line-height: 45px;
+    color: #333;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", "微软雅黑", "宋体", Arial, Helvetica, sans-serif;
+}
+textarea {
+    resize: none;
+    outline: none;
+    overflow: auto;
+}
+.comments-publish span {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 96px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    background: #ccc;
+    cursor: pointer;
+}
+.comments-publish p i {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: none;
+    height: 48px;
+    width: 100%;
+    background: #f2f2f2;
+}
+.comments-publish b {
+    float: right;
+    font-weight: normal;
+    margin-top: 8px;
+    font-size: 16px;
+    color: #333;
+}
+.comments-publish b i {
+    margin: 0 5px;
+    font-size: 16px;
+    color: #f7b200;
+}
+.comments-publish p i {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    display: none;
+    height: 48px;
+    width: 100%;
+    background: #f2f2f2;
+}
+.article-comments ul {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.article-comments li {
+    margin-bottom: 40px;
+}
+.article-comments li > span {
+    float: left;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.article-comments li img {
+    width: 100%;
+    height: 100%;
+}
+.article-comments li div {
+    margin: 0 0 10px 68px;
+}
+.article-comments li div > span {
+    font-size: 16px;
+    color: #808080;
+}
+.article-comments li i {
+    float: right;
+    color: #808080;
+    font-size: 16px;
+}
+.article-comments li p {
+    margin-left: 68px;
+    font-size: 16px;
+    color: #333;
+}
+.article-more {
+    width: 1040px;
+    margin: 40px auto 0;
+    padding: 20px;
+    background: #fff;
+}
+.more-title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.more-title span {
+    font-size: 24px;
+    color: #333;
+}
+.more-title a {
+    float: right;
+    margin-top: 10px;
+    color: #808080;
+    font-size: 16px;
+    font-weight: normal;
+}
+.article-more ul {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.article-more li {
+    float: left;
+    width: 520px;
+    overflow: hidden;
+}
+.article-more img {
+    float: left;
+    width: 200px;
+    height: 166px;
+}
+.article-more dl {
+    float: left;
+    width: 290px;
+    margin-left: 20px;
+}
+.article-more dt {
+    height: 80px;
+}
+.article-more dt a {
+    color: #333;
+    font-size: 24px;
+}
+.article-more dd {
+    margin-top: 65px;
+    font-size: 16px;
+    color: #808080;
+}

@@ -1,0 +1,56 @@
+.articleList {
+    width: 1080px;
+    margin: 0 auto;
+}
+.articleList li {
+    margin-bottom: 20px;
+    overflow: hidden;
+    background: #fff;
+}
+.articleList li > span {
+    position: relative;
+    float: left;
+    width: 320px;
+    height: 260px;
+    margin-right: 80px;
+}
+.articleList li img {
+    width: 100%;
+    height: 100%;
+}
+.articleList li p {
+    margin-top: 20px;
+}
+.articleList p span {
+    float: right;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.articleList i {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #808080;
+}
+.articleList p a {
+    display: inline-block;
+    width: 440px;
+    margin: 40px 0;
+    line-height: 30px;
+    font-size: 24px;
+    font-weight: normal;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.articleList li div {
+    margin-right: 20px;
+    text-indent: 33px;
+    font-size: 16px;
+    color: #808080;
+}
+.articleList div a {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #523669;
+}
