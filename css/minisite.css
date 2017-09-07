@@ -1,16 +1,22 @@
-body{
-    position: relative;
+body,html{
+    overflow:hidden;
+    display: block;
+    position: static;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background:#F9F9F9;
 }
 /*开始的小nav*/
 .kTop{
-	height:30px;
-	background:#333333;
+    height:30px;
+    background:#333333;
     width:100%;
 }
 .KwrapB{
-	width:1080px;
-	min-width:1080px;
-	margin:0 auto;
+    width:1080px;
+    min-width:1080px;
+    margin:0 auto;
 }
 .header-nav {
     float: left;
@@ -85,7 +91,7 @@ body{
     z-index:10;
 }
 .user-app:hover .block{
-	display:block;
+    display:block;
 }
 .user-app dl {
     padding: 15px 10px 10px;
@@ -152,7 +158,7 @@ body{
     box-shadow: 0 2px 4px rgba(0,0,0,.05);
 }
 .nav-logo{
-	width: 231px;
+    width: 231px;
     height: 98px;
     background:url("../images/logo.png") 0 center no-repeat;
 }
@@ -189,132 +195,100 @@ body{
     background: url('../images/search.png') center center no-repeat;
     cursor: pointer;
 }
-.allMeau{
+.onepage-pagination {
+    position: fixed;
+    right: 76px;
+    top: 30%;
+    z-index: 4;
+    height: 250px;
+
+}
+li {
+    position: relative;
+}
+.none{
     display:none;
 }
-.allMeau > p {
-    height: 60px;
-    line-height: 60px;
-    cursor: pointer;
+.onepage-pagination .select a{
+   
+    background: #523669;
+    border:1px solid #F8F7F8;
 }
-.allMeau > p .al {
-    color: #808080;
-    font-size: 16px;
+/* .onepage-pagination li a:active{ background: #523669;
+    border:1px solid #F8F7F8;} */
+.onepage-pagination li:last-child a{
+    display:none
 }
-.allMeau > p .all{
-    display: inline-block;
-    width: 15px;
+.onepage-wrapper {
+    width: 100%;
+    height: 640px; 
+    display: block;
+    position: relative;
+    z-index: 3;
+    overflow:hidden;
+    top:20px;
+    -transition: all 1s linear;
+}
+.onepage-pagination li a {
+    width: 8px;
     height: 8px;
-    margin-left: 10px;
-    background: url('../images/categoryDown.png') no-repeat;
+    display: block;
+    background:#B4A8BD;
+    border-radius:50%;
+    margin-bottom:50px;
+    border:1px solid #fff;
 }
-.allMeau:hover p .all{
-    background:url('../images/categoryUp.png') no-repeat;
+.onepage-wrapper .section {
+    width: 100%;
+    height: 6000px; 
+    position: absolute; 
+    -transition: all 1s linear;
+    left: 0px;
 }
-.allMeau:hover p .al{
-    color:#222;
+.section .outer{
+    width: 100%;
+    height: 6000px;
+    overflow:auto;
+    -transition: all 1s linear;
+} 
+.section>.outer>div:first-child{
+    width:100%;
+    height:644px;
 }
-.navList{
-    position:absolute;
-    z-index:1;
-    top:60px;
-    width: 200px;
-    padding:20px 0;
-    display:none;
-    background:rgba(95,93,100,0.8);
+.section>.outer>div:first-child img,.section .outer div:nth-child(2) img,.section .outer div:nth-child(3) img,.section .outer div:nth-child(4) img{
+    width:100%;height:644px;
+    transition: all 1s linear;
 }
-.allMeau p:hover .navList{
-    display:block;
+.section>.outer>div:nth-child(2){
+    -background:url("../images/minisite/20150310061107.jpg");
+    width:100%;
+    height:644px;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
-.navList .navTitle{
-    height: 40px;
-    line-height: 40px;
-    padding-left: 30px;
-    font:14px/40px "Microsoft YaHei";
-    color:#fff;
+.section>.outer>div:nth-child(3){
+    width:100%;
+    height:644px;
+  }
+.section>.outer>div:nth-child(4){
+    -background:url("../images/minisite/20150310062206.jpg");
+    width:100%;
+    height:644px;
 }
-.navList .navTitle a{
-    color:#fff;
-}
-.navList>li{
-    cursor:pointer;
-}
-.navList .navTitle a:hover{
-    color:orange;
-}
-.navList>li:hover{
-    background:rgba(190,189,191,0.4);
-}
-.navList li .navTitle span{
-    color:#fff;
-    padding:0 8px;
-}
-.navSub{
-    width:668px;
-    min-height:344px;
+.section>.outer>div:nth-child(5){
     background:#fff;
-    position:absolute;
-    top:0;
-    left:200px;
-    padding:16px 16px 0 16px;
-    display:none; 
-    box-shadow: 0px 2px 2px 2px rgba(0,0,0,.08);
- }
-.navSub li{
-    float:left;
-    height:48px;
-    line-height:48px;
+    width:100%;
+    height:644px;
+    margin-top:194px;
 }
-.navSub li p:first-child{
-    width:88px;
-    height:48px;
-    margin-right: 18px;
-}
-.navSub li p:first-child a{
-    color:#333;
-    width:80px;
-    font:14px/48px "Microsoft YaHei";
-}
-.navSub li p:first-child span{
-    float:right;
-}
-.nbsp{
-    width:26px;
-    height:48px;
-    float:left;
-}
-.nbspT{
-    width:16px;
-    height:48px;
-    -background:#000;
-    float:left;
-}
-.navSubCon{
-    width:552px;
-    border-bottom:1px solid #f2f2f2;
-}
-.navSubCon a{
-    font:12px/46px "Microsoft YaHei";
-    margin-right:20px;
-    color:#8f8083;
-}
-.navSub li:last-child .navSubCon{
-    border-bottom:0;
-}
-.navList li:hover .navSub{
-    display:block;
-}
-.navSubCon a:hover{
-    color:#333;
-}
-/*主页的主nav结束*/
-/*footer*/
 .footer{
     height:413px;
     background:#fff;
 }
+
 .footerServe{
-    width:100%;
+    width:1080px;
+    margin:0 auto;
     height:120px;
     border-bottom:1px solid #ccc;
 }
@@ -360,13 +334,18 @@ body{
     color: #333;
 }
 .footer-main {
-    margin-top: 30px;
+    
+    width:1080px;
+    margin:0 auto;
 }
 .footer-detail {
     float: left;
     padding-left: 50px;
     text-align: left;
+    height:200px;
     border-right: 1px solid #ccc;
+    margin-top:30px;
+    height:144px;
 }
 .footer-detail > li {
     float: left;
@@ -398,8 +377,10 @@ body{
     background: url('../images/app.png') center center no-repeat;
     background-size: 100% 100%;
 }
+
 .footer-contact{
     width:250px;
+    margin-top: 30px;
     text-align:center;
 }
 .footer-contact dt {
@@ -413,7 +394,7 @@ body{
     color: #808080;
 }
 .footer-info {
-    margin-top: 60px;
+    margin-top: 40px;
     text-align:center;
     font-size: 12px;
     font-family: "Mircrosoft YaHei";
@@ -432,10 +413,10 @@ body{
 /*右侧栏*/
 .rightBar {
     position: fixed;
-    left: 50%;
+    left: 52%;
     bottom: 100px;
     z-index: 101;
-    margin-left: 552px;
+    margin-left: 582px;
     height: 144px;
 }
 .rightBar li {
@@ -485,6 +466,7 @@ body{
     padding: 10px;
     border-radius: 4px;
     background: #fff;
+    box-shadow:0 1px 10px 4px rgba(0,0,0,.05);
 }
 .rightBar-code dt {
     width: 130px;
@@ -499,3 +481,4 @@ body{
     font-size:14px;
     font-family: "Mircrosoft YaHei";
 }
+/*右侧栏结束*/

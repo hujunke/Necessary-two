@@ -1,0 +1,199 @@
+body{background:#fff;overflow-x:hidden;}
+/*header-login*/
+.header-login{
+    height: 30px;
+    padding-right: 83px;
+    background-color: #333;
+    color: #fff;
+	
+}
+.header-login>div,.header>div{
+	width:1080px;
+	min-width:1080px;
+	margin:0 auto;
+}
+.header-login p span{
+	font-size: 12px;
+    color: white;
+    line-height: 30px;
+    float: left;
+    margin-left: 10px;
+}
+.header-login p a{
+	color:#fff;
+	line-height: 30px;
+	display:inline-block;
+}
+.header{
+	width:100%;
+	height:100px;
+	background:#fff;
+	box-shadow: 0 0 0 #fff, 0 4px 4px #e0e0e0, 0 0 0 #fff, 0 0 0 #fff;
+}
+.header .logo {
+    width: 230px;
+    height: 50px;
+    background: url("../images/logo.png") no-repeat 0 0;
+    margin-top: 25px;
+}
+.header .content {
+    height: 50px;
+    margin-left: 50px;
+    padding-left: 20px;
+    border-left: 2px solid #ccc;
+    margin-top: 25px;
+}
+.header .content .title {
+    font-size: 20px;
+    line-height: 30px;
+}
+.header .content .text {
+    font-size: 12px;
+    line-height: 20px;
+    color: #959595;
+}
+/*header-login*/
+/*内容开始*/
+.body{
+    width:1136px;
+    min-width:1136px;
+    margin:0 auto;
+    padding: 50px 115px;
+    min-height: 425px;
+
+}
+
+.body ul.top {
+    height: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+}
+.body ul.top .number {
+    width: 30px;
+    font-size: 40px;
+    line-height: 50px;
+}
+.body ul.top li.active {
+    color: #523669;
+}
+.body ul.top li {
+    float: left;
+    padding-right: 30px;
+    color: #ccc;
+}
+.body ul.top .join {
+    float: left;
+    width: 15px;
+    height: 50px;
+    background: url("../images/step/join.png") no-repeat 0 10px;
+}
+.body ul.top .content {
+    float: left;
+    padding: 5px 0;
+    width: 160px;
+    height: 50px;
+}
+.body ul.top .content .title {
+    font-size: 16px;
+    line-height: 25px;
+}
+.body ul.top .content .text {
+    font-size: 12px;
+    line-height: 15px;
+}
+.body ul.top li {
+    float: left;
+    padding-right: 30px;
+    color: #ccc;
+}
+.body ul.top li:last-child {
+    padding-right: 0;
+}
+.form-row {
+    margin-top: 20px;
+}
+.form-row label {
+    display: inline-block;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+}
+.w50 {
+    width: 50px;
+}
+.form-row input {
+    height: 38px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    line-height: 38px;
+}
+.w488 {
+    width: 488px;
+}
+.w300 {
+    width: 300px;
+}
+.form-row .update-code {
+    position: absolute;
+    height: 40px;
+}
+.form-row .update-code img {
+    margin-left: 20px;
+}
+.form-row .update-code .link-code {
+    position: absolute;
+    left: 140px;
+    top: 0;
+    width: 60px;
+    height: 40px;
+}
+.form-row .update-code p {
+    margin-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: underline;
+    color: #ccc;
+    cursor: pointer;
+}
+.mar-t40 {
+    margin-top: 40px;
+}
+.btn {
+    width: 240px;
+    height: 40px;
+    background-color: #f7b200;
+    font-size: 16px;
+    line-height: 40px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.link {
+    position: absolute;
+    font-size: 12px;
+    line-height: 12px;
+    color: #376bfb;
+    padding-left: 10px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+/*内容结束*/
+/*底部开始*/
+.footer {
+    height: 108px;
+    text-align: center;
+}
+.footer p {
+    font-size: 12px;
+    line-height: 30px;
+    color: #ccc;
+}
+.footer i {
+    display: inline-block;
+    width: 20px;
+    height: 30px;
+    background: url("../images/step/ga.png") no-repeat 0 5px;
+}
+/*底部结束*/

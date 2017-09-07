@@ -8,9 +8,6 @@ li{
 a{
 text-decoration:none; 
 }
-i{
-	list-style: normal;
-}
 .left{
 	float:left;
 	display:inline;

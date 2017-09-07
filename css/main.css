@@ -24,11 +24,11 @@
 .btn{
 	width:48px;
 	height:48px;
-	background:rgba(0,0,0,0.65);
+	background:rgba(0,0,0,0.45);
 	border-radius:2px; 
 	color:#fff; 
 	text-align:center; 
-	font:24px/48px 'SimSun'; 
+	font:40px/48px 'SimSun'; 
 	position:absolute; 
 	top:50%; 
 	margin-top:-20px;
@@ -218,7 +218,6 @@
     font: 24px/24px "Mircrosoft YaHei";
     margin-bottom: 20px;
 }
-/*手风琴效果*/
 .accordion ul li{
 	list-style: none;
 	float: left;
@@ -229,7 +228,7 @@
 	height: 280px;
 	margin:0 auto;
 }
-.accordion ul li{
+.accordion ul .item{
 	background-repeat: no-repeat;
 	float: left;
 	width: 80px;
@@ -237,16 +236,18 @@
 	cursor: pointer;
 	-background:rgba(0,0,0,0.4);
 	border-left:12px solid #fff;
+	position: relative;
 }
-.accordion ul li:first-child{
+.accordion ul .item:first-child{
 	border:none;
 }
-.accordion ul li.active{
+.accordion ul .item.active{
 	width: 620px;
 }
 .accordion ul .item1{
 	background-image: url(../images/piano/pic1.jpg);
 }
+
 .accordion ul .item2{
 	background-image: url(../images/piano/pic2.jpg);
 }
@@ -262,11 +263,17 @@
 .accordion ul .item6{
 	background-image: url(../images/piano/pic6.jpg);
 }
-.accordion ul li a{
-	display: block;
-	width: 80px;
+.accordion ul .item p{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
 	height: 280px;
-	-cursor: default;
+	background: rgba(0,0,0,.5);
+	/* -cursor: default; */
+}
+.accordion ul .item1 a{
+	background:transparent;
 }
 /*手风琴效果*/
 .category-recommend-3 p a{

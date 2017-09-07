@@ -1,0 +1,194 @@
+body{overflow-x:hidden;background-color: #ccb4d5;}
+html{overflow-y:hidden;}
+#container{
+	width: 100vw; height:100vh;
+}
+#header {
+    height: 80px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+.h_content {
+    background-color: #ccb4d5;
+    position: relative;
+  
+}
+.logo{
+	background-image: url("https://chat.biyao.com/chat/chatClient/refactor/style/live800.gif");
+	width: 120px;
+	height: 60px;
+	margin: 0 0 0 130px;
+	padding-top:10px;
+	
+}
+#funcContainer {
+    -position: absolute;
+    -z-index: 100;
+    width:150px;
+    height: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.funcItem {
+    float: left;
+    text-align: center;
+    width: 75px;
+    height: 60px;
+    cursor: pointer;
+    display: inline;
+}
+.funcLogo {
+    display: block;
+    height: 60px;
+}
+#collect .img {
+    background: url("../images/service/collect.png");
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+}
+#help .img {
+	 width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("../images/service/help.png");
+}
+.funcItem span {
+    display: block;
+    font:14px/14px "Microsoft YaHei";
+}
+.center{
+	width:1346px;
+	height:558px;
+	margin:80px auto;
+	-background:red;
+}
+.center p{
+	width:100%;
+	height:20px;
+	font:14px/20px "Microsoft YaHei";
+	color:#333;
+}
+.mid_l_c{
+	width:1136px;
+	height:538px;
+	-background:#3cf;
+}
+.side{
+	width:100%;
+	height:411px;
+	background:#f2f2f2;
+	position:relative;
+}
+.side a:first-child{
+	background:url("../images/service/top.png") no-repeat;
+	width:7px;
+	height:4px;
+	position:absolute;
+	top:7px;
+	right:5px;
+}
+.side a:first-child+a{
+	background:url("../images/service/down.png") no-repeat;
+	width:7px;
+	height:4px;
+	position:absolute;
+	bottom:7px;
+	right:5px;
+}
+.toolsbar{
+	width:100%;
+	height:23px;
+	background:url('../images/service/icon.jpg') no-repeat;
+	margin:4px 0 0 11px;
+}
+.message{
+	width:100%;
+	height:70px;
+	background:#fff;
+}
+.close,.send{
+	width:52px;
+	height:23px;
+	display:inline-block;
+	border:1px solid #000;
+	background:url("../images/service/close_cn.png") no-repeat;
+	margin-top:4px;
+}
+.send{
+	width:64px;
+	height:23px;
+	background:url("../images/service/send.png") no-repeat;
+	margin-left: 17px;
+}
+.mid_r_c{
+	width:200px;
+	height:538px;
+	background:#fff;
+}
+.mid_r_c .product{
+	width:100%;
+	height:32px;
+	font:12px/32px "Microsoft YaHei";
+	color:#7e4395;
+	text-align:center;
+	border-bottom:2px solid #d5d5d5;
+}
+.sct-body {
+    background: #fff;
+    min-height: 366px;
+    padding: 10px 10px;
+    position: relative;
+    overflow-y: hidden;
+}
+.sct-imgbox {
+    height: 180px;
+    width: 175px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.sct-imgbox > img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.sct-product-info {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.sct-product-info p {
+    margin-top: 8px;
+    text-align: center;
+}
+.product-name {
+    font-size: 14px;
+    color: #333;
+}
+.sct-product-info p {
+    margin-top: 8px;
+    text-align: center;
+}
+
+.sct-product-info .price-red1 {
+    font-size: 14px;
+    color: #FD3738;
+}
+.sct-product-info .product-intro {
+    font-size: 14px;
+    color: #8C8C8C;
+    text-align: center;
+    -padding: 0 15px;
+    height: 85px;
+}
+.a-btn {
+    font-size: 15px;
+    color: #fff;
+    background: #7E4395;
+    padding: 5px 11px;
+    display: block;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center;
+}
