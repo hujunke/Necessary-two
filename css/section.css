@@ -2925,3 +2925,11 @@ p.double11 input {
 /*.specs-detail:active em{
     display:block;
 }*/
+
+
+.rightBar-share:hover {
+    background: url(../images/rightBar-serveActive.png);
+}
+body{
+    background: #fff;
+}
