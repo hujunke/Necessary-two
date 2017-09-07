@@ -25,6 +25,9 @@
     cursor:pointer;
 }
 /*header*/
+
+
+
 /*注册开始*/
 .account-main,.account-main2 {
     width: 400px;
@@ -97,6 +100,15 @@
     cursor: pointer;
     background: #F49F26;
 }
+
+
+
+
+
+
+
+
+
 .login-third {
     margin-top: 40px!important;
     text-align: center;

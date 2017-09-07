@@ -64,6 +64,8 @@
 	background:#F7B200;
 }
 /*轮播结束*/
+
+
 /*轮播左侧的菜单开始*/
 .navSide{
 	width:200px;
@@ -159,6 +161,7 @@
 	color:#333;
 }
 /*轮播左侧的菜单结束*/
+
 .article a {
     display: block;
     line-height: 56px;
@@ -218,6 +221,7 @@
     font: 24px/24px "Mircrosoft YaHei";
     margin-bottom: 20px;
 }
+
 .accordion ul li{
 	list-style: none;
 	float: left;
@@ -318,6 +322,13 @@
 	overflow:hidden;
 	
 }
+
+
+
+
+
+
+
 .listNode span>img{
 	height:204px;
 	-webkit-transition:1s;
@@ -325,6 +336,15 @@
 	-o-transition:1s;
 	transition:1s;
 }
+
+
+
+
+
+
+
+
+
 .listNode .listNTitle{
 	width:100%;
 	font: 20px/20px "Mircrosoft YaHei";
@@ -335,6 +355,15 @@
 .category-recommend-3 ul li:hover{
 	box-shadow: 0 1px 10px 4px rgba(0,0,0,.05);
 }
+
+
+
+
+
+
+
+
+
 .category-recommend-3 ul li:hover span>img{
 	-webkit-transform:scale(1.05,1.05);
 	-moz-transform:scale(1.05,1.05);
@@ -346,6 +375,13 @@
 	height:284px;
 	
 }
+
+
+
+
+
+
+
 .category-recommend-3 ul li a{
 	width:204px;
 	height:284px;
